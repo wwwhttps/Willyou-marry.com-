@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600;800&display=swap');
+
+@theme {
+  --font-handwriting: "Pacifico", cursive;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-rose-50 text-rose-900 overflow-hidden;
+  font-family: var(--font-sans);
+}
+
+.handwriting {
+  font-family: var(--font-handwriting);
+}
